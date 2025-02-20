@@ -1,0 +1,49 @@
+.favicon{
+  margin-left: 100px;
+  
+}
+.navimage{
+  border-radius: 10%;
+  animation: shine 5s infinite; /* Add the shining animation */
+}
+
+@keyframes shine {
+0% {
+  box-shadow: 0 0 0 0 #0cc0df;
+}
+50% {
+  box-shadow: 0 0 20px 10px white;
+}
+100% {
+  box-shadow: 0 0 0 0 #0cc0df;
+}
+}
+.button{
+  margin-left: 770px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.signature {
+  position: absolute;
+  top: 30px;
+  right: 400px;
+  font-size: 24px;
+  font-family: cursive;
+  color: #101110;
+  white-space: nowrap;
+  overflow: hidden;
+  /*border-right: 2px solid #000;*/
+  width: 0;
+  animation: sign 15s steps(30, end) infinite;
+}
+
+@keyframes sign {
+  from {
+    width: 0;
+  }
+  to {
+    width: 32%;
+  }
+}
+

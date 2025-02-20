@@ -1,0 +1,24 @@
+/* Footer Styles */
+.footer-container {
+    background-color: #403f3f;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer-container h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-container p {
+    font-size: 16px;
+  }
+  
+  .list-unstyled li {
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+
+  

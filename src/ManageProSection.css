@@ -1,0 +1,76 @@
+/* ManageProSection.css */
+h1 {
+    margin-top: 30px;
+    font-size: 36px; /* Adjust the font size */
+    color: whitesmoke; /* Set the text color */
+    font-display: bold;
+  }
+  p {
+    font-size: 18px; /* Adjust the font size */
+    color: white; /* Set the text color */
+  }
+.manage-pro-section {
+     /* Set the background color */
+    
+    padding-top: 0px; /* Add some padding for spacing */
+  
+  }
+  
+  /* Style the container */
+  .grid__Container-sc-p40pqe-0 {
+    max-width: 1200px; /* Set the maximum width for the content container */
+    margin: 0 auto; /* Center the content horizontally */
+    
+  }
+  
+  /* Style the columns */
+  .grid__StyledColumn-sc-p40pqe-2 {
+    padding: 15px; /* Add padding to the columns */
+    
+  }
+  
+  /* Style the image */
+  .Picture__Image-sc-1wdxyb4-0 {
+    max-width: 100%; /* Ensure the image resizes appropriately */
+    height: auto;
+    display: inline-block; /* Center the image horizontally */
+    margin: 0 ;
+    border-radius: 5px; /* Add a border radius */
+    
+  }
+  .btn{
+   margin-top: 10px;
+  }
+
+  .gradient-background {
+    height: 620px;
+    background: linear-gradient(to bottom, #33d3ff, #d466bed9);
+    border-bottom-left-radius: 80% 50px;
+    border-bottom-right-radius: 80% 50px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
+  }
+.watch{
+    margin-top: 10px;
+}
+  .watch svg {
+    color:white;
+  }
+  
+  .watch span {
+    color: white; /* Change the color to white */
+  }
+  
+ .cardtitle{
+  text-align: center;
+  
+ }
+
+ .cardv{
+  border: none;
+ }
+
+ .card-body{
+  
+ }
