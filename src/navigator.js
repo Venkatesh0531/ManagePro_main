@@ -28,7 +28,7 @@ function NavigationBar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto"> {/* Align the content to the right */}
           <Nav.Link className='adj' href="#home">Home</Nav.Link>
-          <Nav.Link className='adj' href="https://ashraf2004.github.io/feedback/">Feedback</Nav.Link> 
+          <Nav.Link className='adj' href="https://manage-pro-rating.vercel.app/">Feedback</Nav.Link> 
           <NavDropdown className='adj' title="Contact" id="basic-nav-dropdown">
             <NavDropdown.Item onClick={sendEmail}>managepro@gmail.com</NavDropdown.Item>
           </NavDropdown>
